@@ -37,12 +37,14 @@ img{
 
 }
 /* side-menu */
-.side-menu{
+
+.side{
     display: grid;
     align-self: center;
-    padding-left: 100px;
+    padding-left: 60px;
     text-align: center;
     background-color: black;
+    border-radius: 10px;
     width: 312px;
     height: 312px;
 }
@@ -70,8 +72,8 @@ img{
     color: black;
     border-radius: 10px;
     display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     width: 254px;
     height: 65px;
